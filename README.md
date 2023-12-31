@@ -59,7 +59,7 @@ Axios, Zustand, React-hook-form, and dummyjson for the API.
 
 1. Clone the project
     ```bash
-      git clone https://github.com/MaksymMakiaveli/React-Ecommerce.git
+      git clone https://github.com/fiona02/dummy_ecommerce.git
     ```
 2. Ensure that you have Node.js and npm (Node Package Manager) installed on your
    machine.
