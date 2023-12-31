@@ -1,0 +1,43 @@
+@mixin breakpoint($point) {
+  @if $point == xxl {
+    @media only screen and (max-width : 1536px) {
+      @content;
+    }
+  } @else if $point == xl {
+    @media only screen and (max-width : 1470px) {
+      @content;
+    }
+  } @else if $point == extra-md {
+    @media only screen and (max-width : 1366px) {
+      @content;
+    }
+  } @else if $point == md {
+    @media only screen and (max-width : 1280px) {
+      @content;
+    }
+  } @else if $point == extra-sm {
+    @media only screen and (max-width : 991px) {
+      @content;
+    }
+  } @else if $point == sm {
+    @media only screen and (max-width : 768px) {
+      @content;
+    }
+  } @else if $point == xs {
+    @media only screen and (max-width : 576px) {
+      @content;
+    }
+  }
+}
+
+
+@mixin transition-primary($type, $delay: 0) {
+  transition : $type var(--transition-duration-primary) var(--transition-timing-primary) $delay;
+}
+
+@mixin truncate() {
+  max-width     : 99.99%;
+  white-space   : nowrap;
+  text-overflow : ellipsis;
+  overflow      : clip;
+}

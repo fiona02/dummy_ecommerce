@@ -1,0 +1,24 @@
+@import "src/styles/mixins";
+
+.grid-container {
+  display               : grid;
+  grid-template-columns : repeat(3, 1fr);
+  grid-column-gap       : 2.8rem;
+  grid-row-gap          : 2rem;
+
+  justify-items         : center;
+}
+
+@include breakpoint(extra-md) {
+  .grid-container {
+    grid-template-columns : repeat(2, 1fr);
+  }
+}
+
+
+@include breakpoint(extra-sm) {
+  .grid-container {
+    grid-template-columns : repeat(1, 1fr);
+    justify-items         : center;
+  }
+}

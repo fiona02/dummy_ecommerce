@@ -1,0 +1,21 @@
+.category-item {
+  display          : inline-block;
+  width            : auto;
+  flex             : 0 0 auto;
+
+  padding          : 0.6rem 1.2rem;
+
+  color            : var(--color-category-item);
+  background-color : var(--color-bg-category-item);
+
+  text-transform   : capitalize;
+
+  cursor           : pointer;
+
+  border-radius    : 20px;
+}
+
+.active {
+  background-color : var(--color-bg-category-item-active);
+  color            : var(--color-category-item-active)
+}

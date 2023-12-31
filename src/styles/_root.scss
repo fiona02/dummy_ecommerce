@@ -1,0 +1,158 @@
+:root {
+  // --------------- Defaults
+  --font-size-primary             : 10px;
+  --font-size-mobile              : 7px;
+
+  --width-primary                 : 1920px;
+
+  // --------------- Font Sizes
+  --font-size-regular-sm          : 1.2rem;
+  --font-size-regular-md          : 1.4rem;
+  --font-size-regular-lg          : 1.6rem;
+  --font-size-regular-xl          : 2.4rem;
+  --font-size-regular-xxl         : 3.4rem;
+
+  --font-size-medium-sm           : 1.2rem;
+  --font-size-medium-md           : 1.4rem;
+  --font-size-medium-lg           : 1.6rem;
+  --font-size-medium-xl           : 2.4rem;
+  --font-size-medium-xxl          : 3.4rem;
+
+  --font-size-semiBold-sm         : 1.2rem;
+  --font-size-semiBold-md         : 1.4rem;
+  --font-size-semiBold-lg         : 1.6rem;
+  --font-size-semiBold-xl         : 2.4rem;
+  --font-size-semiBold-xxl        : 3.4rem;
+
+  --font-size-bold-sm             : 1.2rem;
+  --font-size-bold-md             : 1.4rem;
+  --font-size-bold-lg             : 1.6rem;
+  --font-size-bold-xl             : 2.4rem;
+  --font-size-bold-xxl            : 3.4rem;
+
+  // --------------- Colors
+  --color-white                   : #ffffff;
+  --color-white-1                 : rgba(193, 192, 229, 0.08);
+  --color-white-2                 : rgba(145, 158, 171, 0.24);
+
+  --color-black                   : #000000;
+  --color-black-1                 : #15141B;
+  --color-black-2                 : #1F1E24;
+  --color-black-3                 : #191922;
+  --color-black-4                 : #201E2C;
+  --color-black-5                 : rgba(25, 25, 34, 0.36);
+
+  --color-gray-25                 : #F9FAFB;
+  --color-gray-50                 : #F6F7F9;
+  --color-gray-100                : #F3F5F7;
+  --color-gray-200                : #EFF2F5;
+  --color-gray-300                : #DFE3E8;
+  --color-gray-400                : #C4CDD5;
+  --color-gray-500                : #919EAB;
+  --color-gray-600                : #637381;
+  --color-gray-700                : #454F5B;
+  --color-gray-800                : #212B36;
+  --color-gray-900                : #161C24;
+
+  --color-primary-25              : #FFFEFA;
+  --color-primary-50              : #FFFAE0;
+  --color-primary-100             : #FFF7CC;
+  --color-primary-200             : #FFEFAC;
+  --color-primary-300             : #FFE483;
+  --color-primary-400             : #FFDA64;
+  --color-primary-500             : #FFC831;
+  --color-primary-600             : #DBA523;
+  --color-primary-700             : #B78418;
+  --color-primary-800             : #93650F;
+  --color-primary-900             : #7A4F09;
+
+  --color-error-primary           : #ff3333;
+
+  --color-font-primary            : var(--color-gray-800);
+  --color-bg-primary              : var(--color-white);
+
+  // --------------- Z-index
+  --zindex-dropdown               : 1000;
+  --zindex-sticky                 : 1020;
+  --zindex-fixed                  : 1030;
+  --zindex-modal-backdrop         : 1040;
+  --zindex-modal                  : 1050;
+  --zindex-popover                : 1060;
+  --zindex-tooltip                : 1070;
+  --zindex-loader                 : 1080;
+
+  // --------------- Transitions
+  --transition-duration-primary   : 0.3s;
+  --transition-timing-primary     : ease;
+  --transition-all-primary        : all var(--transition-duration-primary) var(--transition-timing-primary);
+  --transition-bg-color-primary   : background-color 0.15s var(--transition-timing-primary);
+  --transition-color-primary      : color 0.5ms var(--transition-timing-primary);
+
+
+  // --------------- Components
+  --color-bg-btn-primary          : var(--color-primary-500);
+  --color-font-btn-primary        : var(--color-black-1);
+
+  --color-bg-btn-secondary        : var(--color-gray-100);
+
+  --color-bg-field-primary        : var(--color-gray-100);
+  --color-field-primary           : var(--color-gray-800);
+
+  --color-icon-active             : var(--color-primary-500);
+  --color-icon-primary            : var(--color-gray-500);
+
+  --color-bg-modal                : var(--color-gray-50);
+
+
+  // --------------- Layout
+  --width-sidebar-primary         : 260px;
+  --width-sidebar-collapsed       : 60px;
+
+  --width-header-primary          : calc(100% - var(--width-sidebar-primary));
+  --width-header-collapsed        : calc(100% - var(--width-sidebar-collapsed));
+  --gap-header-primary            : 12px;
+  --height-header-primary         : 44px;
+
+  --top-gap-layout-primary        : calc(var(--height-header-primary) + var(--gap-header-primary));
+  --horizontal-gap-layout-primary : 28px;
+
+  --gap-main-layout-priamry       : var(--top-gap-layout-primary) var(--horizontal-gap-layout-primary) 5.2rem calc(var(--width-sidebar-primary) + var(--horizontal-gap-layout-primary));
+  --gap-main-layout-collapsed     : var(--top-gap-layout-primary) var(--horizontal-gap-layout-primary) 5.2rem calc(var(--width-sidebar-collapsed) + var(--horizontal-gap-layout-primary));
+
+  --color-bg-sidebar              : var(--color-gray-25);
+  --color-bg-link-active          : var(--color-gray-200);
+  --color-link-active             : var(--color-gray-800);
+
+  --color-bg-auth-content         : var(--color-gray-25);
+
+  --color-bg-category-item        : var(--color-gray-100);
+  --color-bg-category-item-active : var(--color-gray-800);
+  --color-category-item           : var(--color-gray-600);
+  --color-category-item-active    : var(--color-white);
+}
+
+
+// --------------- Dark theme
+:root[data-theme=dark] {
+  --color-bg-primary              : var(--color-black-1);
+  --color-font-primary            : var(--color-white);
+
+  // --------------- Components
+  --color-bg-field-primary        : var(--color-black-2);
+  --color-field-primary           : var(--color-gray-600);
+
+  --color-bg-btn-secondary        : var(--color-black-2);
+
+  --color-bg-category-item        : var(--color-black-4);
+  --color-bg-category-item-active : var(--color-gray-100);
+  --color-category-item-active    : var(--color-gray-800);
+
+  --color-bg-modal                : var(--color-black-3);
+
+  // --------------- Layout
+  --color-bg-sidebar              : var(--color-black-3);
+  --color-bg-link-active          : var(--color-black-4);
+  --color-link-active             : var(--color-white);
+
+  --color-bg-auth-content         : var(--color-black-3);
+}

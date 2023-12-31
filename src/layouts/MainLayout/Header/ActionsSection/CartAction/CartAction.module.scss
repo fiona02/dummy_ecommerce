@@ -1,0 +1,23 @@
+.cart-action {
+/* CartAction.module.scss */
+.itemCount {
+  background-color: #ff4500; /* Set your preferred background color */
+  color: #fff; /* Set text color */
+  border-radius: 50%; /* For a circular background */
+  padding: 4px 8px; /* Adjust padding for spacing */
+  font-size: 12px; /* Adjust font size */
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%); /* Position it properly */
+}
+
+  padding-bottom : 4px;
+}
+
+.cart-action-active {
+
+  svg {
+    color : var(--color-primary-500)
+  }
+}

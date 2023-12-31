@@ -1,0 +1,13 @@
+.form-label {
+  display   : inline-block;
+
+  color     : var(--color-gray-600);
+
+  font-size : var(--font-size-regular-sm);
+
+  padding   : 0 0 1rem 0.5rem;
+}
+
+.form-label[aria-invalid=true] {
+  color : var(--color-error-primary);
+}

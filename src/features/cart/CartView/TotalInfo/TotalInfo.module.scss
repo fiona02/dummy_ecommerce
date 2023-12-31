@@ -1,0 +1,26 @@
+.total-info {
+  .title {
+    font-size   : var(--font-size-regular-lg);
+
+    font-weight : 600;
+  }
+
+  .discounted {
+    font-weight : 600;
+    font-size   : var(--font-size-semiBold-lg);
+    line-height : 143%;
+
+    color       : var(--color-primary-500);
+  }
+
+  .price {
+
+    margin-left     : 0.8rem;
+
+    font-weight     : 400;
+    font-size       : var(--font-size-regular-lg);
+    line-height     : 143%;
+    color           : var(--color-gray-500);
+    text-decoration : line-through;
+  }
+}

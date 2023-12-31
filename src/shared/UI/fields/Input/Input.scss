@@ -1,0 +1,74 @@
+.ui-input {
+  width            : 100%;
+
+  background-color : var(--color-bg-field-primary);
+
+  border           : 1px solid transparent;
+
+  color            : var(--color-field-primary);
+
+  padding          : 2rem 2.4rem;
+
+  border-radius    : 8px;
+}
+
+
+.ui-input-wrapper {
+  position : relative;
+
+  display  : inline-block;
+
+  width    : 100%;
+
+
+  &:has(.ui-input-prefix) {
+    .ui-input {
+      padding-left : 4.8rem;
+    }
+  }
+
+  &:has(.ui-input-suffix) {
+    .ui-input {
+      padding-right : 4.8rem;
+    }
+  }
+}
+
+.ui-input-prefix {
+  position   : absolute;
+
+  display    : inline-block;
+
+  width      : 24px;
+  height     : 24px;
+
+  font-size  : 24px;
+  text-align : center;
+
+  left       : -4px;
+  top        : -1px;
+
+  transform  : translate(20px, 10px);
+
+}
+
+.ui-input-suffix {
+  position   : absolute;
+
+  display    : inline-block;
+
+  width      : 24px;
+  height     : 24px;
+
+  font-size  : 24px;
+  text-align : center;
+
+  right      : 0;
+  top        : 6px;
+  transform  : translate(-50%, 50%);
+}
+
+.ui-input[aria-invalid=true] {
+  border-color : var(--color-error-primary);
+  color        : var(--color-error-primary)
+}

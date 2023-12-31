@@ -1,0 +1,20 @@
+.theme-switcher {
+  display : inline-block;
+
+
+  cursor  : pointer;
+
+  &-button {
+    background : transparent;
+    font-size  : 24px;
+  }
+}
+
+.theme-switcher-active {
+
+  .theme-switcher-button {
+    svg {
+      color : var(--color-primary-500);
+    }
+  }
+}

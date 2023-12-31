@@ -1,0 +1,16 @@
+.product-card {
+  max-width : 35.6rem;
+  width     : 100%;
+
+  .description-wrapper {
+    padding-top     : 1.6rem;
+    padding-left    : 1rem;
+
+    display         : flex;
+    justify-content : space-between;
+  }
+
+  .button-wrapper {
+    align-self : flex-end;
+  }
+}

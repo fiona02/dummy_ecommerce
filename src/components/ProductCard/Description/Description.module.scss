@@ -1,0 +1,64 @@
+.description {
+  .title {
+    font-weight : 500;
+    font-size   : var(--font-size-semiBold-md);
+    line-height : 143%;
+  }
+
+  .brand {
+    font-weight : 300;
+    color       : var(--color-gray-500);
+    font-size   : var(--font-size-regular-md);
+    line-height : 143%;
+  }
+
+  .price-wrapper {
+    padding-top : 1.2rem;
+  }
+
+  .discount-price {
+    font-weight : 600;
+    font-size   : var(--font-size-semiBold-md);
+    line-height : 143%;
+
+    color       : var(--color-primary-500);
+  }
+
+
+  .price {
+    display         : inline-block;
+
+    margin-left     : 0.8rem;
+
+    font-weight     : 400;
+    font-size       : var(--font-size-regular-md);
+    line-height     : 143%;
+    color           : var(--color-gray-500);
+    text-decoration : line-through;
+  }
+
+  .rating-wrapper {
+    padding-top : 1rem;
+
+    display     : flex;
+    align-items : center;
+    gap         : 1rem;
+  }
+
+  .rating-icon {
+    svg {
+      font-size : 1.8rem;
+    }
+  }
+
+  .rating-number {
+    color     : var(--color-gray-500);
+    font-size : var(--font-size-regular-sm);
+  }
+  
+  .stock {
+    color     : var(--color-gray-500);
+    font-size : var(--font-size-regular-sm);
+  }
+
+}

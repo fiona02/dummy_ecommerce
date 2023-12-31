@@ -1,0 +1,30 @@
+.sidebar {
+  position         : fixed;
+  left             : 0;
+  top              : 0;
+
+  height           : 100%;
+  min-height       : 100vh;
+  width            : 100%;
+  max-width        : var(--width-sidebar-primary);
+
+  padding          : 24px 0;
+
+
+  transition       : max-width var(--transition-duration-primary) var(--transition-timing-primary);
+
+
+  background-color : var(--color-bg-sidebar);
+
+  overflow         : clip;
+
+  z-index          : var(--zindex-fixed);
+}
+
+
+.sidebar--collapsed {
+  max-width : var(--width-sidebar-collapsed);
+}
+
+.sidebar--sm {
+}

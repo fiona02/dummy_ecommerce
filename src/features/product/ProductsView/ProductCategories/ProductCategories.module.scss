@@ -1,0 +1,27 @@
+.product-categories {
+  position        : relative;
+
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+
+
+  .categories-list {
+    display       : flex;
+    align-items   : center;
+    gap           : 1.5rem;
+
+    padding-right : 4rem;
+
+    overflow      : auto;
+
+    &::-webkit-scrollbar {
+      display : none;
+    }
+  }
+
+  .scroll-button {
+  }
+}
+
+

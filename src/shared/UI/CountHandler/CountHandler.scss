@@ -1,0 +1,54 @@
+@import "src/styles/mixins";
+
+$round : 5px;
+
+.ui-count-handler {
+  display     : inline-flex;
+  align-items : center;
+
+  &-button, &-count {
+    height : 2.6rem;
+    width  : 3rem;
+  }
+
+  &-button {
+    line-height : 143%;
+    padding     : 0.3rem 1rem;
+  }
+
+  &-count {
+    padding        : 0.8rem 0;
+    vertical-align : center;
+    text-align     : center;
+
+    @include truncate;
+  }
+
+}
+
+.ui-count-handler--vertical {
+  flex-direction  : column;
+  justify-content : center;
+
+
+  .ui-count-handler-minus {
+    border-radius : 0 0 $round $round;
+  }
+
+  .ui-count-handler-plus {
+    border-radius : $round $round 0 0;
+  }
+}
+
+.ui-count-handler--horizontal {
+  align-items : center;
+
+
+  .ui-count-handler-minus {
+    border-radius : 0 $round $round 0;
+  }
+
+  .ui-count-handler-plus {
+    border-radius : $round 0 0 $round;
+  }
+}

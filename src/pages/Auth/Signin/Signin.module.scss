@@ -1,0 +1,21 @@
+.signin {
+  &-info-wrapper {
+
+  }
+
+  &-title {
+    font-size   : var(--font-size-semiBold-xxl);
+    font-weight : 500;
+
+    padding-top : 2.9rem;
+  }
+
+  &-sub-title {
+    font-size   : var(--font-size-regular-md);
+    font-weight : 200;
+  }
+
+  &-form-wrapper {
+    padding-top : 8rem;
+  }
+}
