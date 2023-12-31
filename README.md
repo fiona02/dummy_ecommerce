@@ -2,6 +2,7 @@
 
 #### [Project link](https://ecommerce-project-makiaveli.netlify.app)
 
+
 This project is an e-commerce application developed using React, Typescript,
 Axios, Zustand, React-hook-form, and dummyjson for the API.
 
