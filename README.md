@@ -8,14 +8,15 @@ Axios, Zustand, React-hook-form, and dummyjson for the API.
 
 ### Technologies used
 
-- [**React**](https://uk.legacy.reactjs.org/)
-- [**Typescript**](https://www.typescriptlang.org/)
-- [**Axios**](https://axios-http.com/ru/docs/intro)
-- [**Zustand**](https://zustand-demo.pmnd.rs/)
-- [**React-hook-form**](https://react-hook-form.com/)
-- [**Zod**](https://github.com/colinhacks/zod)
-- [**React-router-dom**](https://reactrouter.com/en/main)
-- [**dummyjson**](https://dummyjson.com/)
+
+<p>React</p>
+<p>Typescript </p>
+<p>Axios</p>
+<p>Zustand</p>
+<p>React-hook-form</p>
+<p>Zod</p>
+<p>React-router-dom</p>
+<p>dummyJSON</p>
 
 ### Features
 
